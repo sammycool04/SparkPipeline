@@ -1,13 +1,13 @@
 # SparkPipeline
 
 ## Project Structure
-Read data from S3
+### Read data from S3
 
 * Song data: s3://udacity-dend/song_data
 * Log data: s3://udacity-dend/log_data
 The script reads song_data and load_data from S3.
 
-Process data using spark
+### Process data using spark
 
 Transforms them to create five different tables listed below :
 
@@ -25,6 +25,6 @@ Dimension Tables
 
 * time - timestamps of records in songplays broken down into specific units Fields - start_time, hour, day, week, month, year, weekday
 
-Load it back to S3
+### Load it back to S3
 
 Writes them to partitioned parquet files in table directories on S3.

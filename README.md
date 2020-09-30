@@ -11,12 +11,12 @@ The script reads song_data and load_data from S3.
 
 Transforms them to create five different tables listed below :
 
-Fact Table
+## Fact Table
 *songplays - records in log data associated with song plays i.e. records with page NextSong
 
 songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 
-Dimension Tables
+## Dimension Tables
 * users - users in the app Fields - user_id, first_name, last_name, gender, level
 
 * songs - songs in music database Fields - song_id, title, artist_id, year, duration
